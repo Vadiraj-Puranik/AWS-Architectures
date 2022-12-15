@@ -34,6 +34,10 @@
 
 ![Server 2](https://user-images.githubusercontent.com/113619300/207943000-db02fa83-856d-409d-be76-46c609aa3c7c.png)
 
+#### CPU Spikes ####
+![sO](https://user-images.githubusercontent.com/113619300/207950822-55751b0c-e192-434d-b7d2-7d451720a325.png)
+
+
 
 
 
