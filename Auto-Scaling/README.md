@@ -1,4 +1,4 @@
-Step 1: Creating a Launch Template 
+## Auto Scaling of EC2 Instances Demo ##
 
 
 
