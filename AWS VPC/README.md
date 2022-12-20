@@ -1,6 +1,7 @@
 
 # AWS VPC(Virtual Private Cloud)
 
+
 VPC is spanned across region , there is a default VPC which is already setup and if you dont specify VPC then resources are usually moved in default VPC.
 It is important to note that default VPC is public as IG is attached.
 
@@ -45,5 +46,10 @@ Total Hosts IPs Available = 256 -5(Reserved)=251
 
 
 Deleting the VPC will delete associated subnet,IG and Routes 
+
+Diagrammatic view for reference
+![image](https://user-images.githubusercontent.com/113619300/208665578-8018c63c-854c-451b-a059-3c724dd9cf0d.png)
+
+
 
 
