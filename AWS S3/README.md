@@ -33,6 +33,8 @@ Keeping the multiple version of the object which helps in accidental deletion an
 For cross region or same region replication versioning must be enabled.
 
 ## S3 CORS(Cross Origin Resource Sharing) :
+Domain to Domain interaction .
+Cross-origin resource sharing (CORS) defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
 
 
 ## S3 Lifecycle Rules :
