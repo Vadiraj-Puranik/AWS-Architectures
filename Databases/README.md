@@ -16,7 +16,7 @@ Step 1: Launch a EC2 instance to connect to RDS Instance.
 ![image](https://user-images.githubusercontent.com/113619300/209464703-7eb943d9-05ea-4151-a3da-b8ce27735a33.png)
 
 
-Step 2: Allow 3306 Port in the Security group attached for your instance.
+Step 2: Allow 3306 Port in the Security group attached.
 ![image](https://user-images.githubusercontent.com/113619300/209464770-4e632670-5a0f-4981-8a89-a0311f16f45d.png)
 
 Step 3: Go to RDS Console and create a RDS Instance and add DB name, Master username and password.
@@ -71,17 +71,21 @@ At any point any of the read replicas can be promoted to be primary on occurence
 
 
 
+## Non-Relational Databases
+* AWS Dynamo DB
 
+1:Composite Key = Partition key(primary) + Sort Key(Second part of a table's primary key which allows to sort or search among all items sharing the same partition key.)
 
+2:Capacity Mode : 
+```sh
+On demand : You pay for what is used, no need to allocate capacity units prior.<br>
+Provisioned : You allocate capacity units and pay even if its not used.<br>
+```
 
-
-
-
-
-
-
-
-
+3:DynamoDB Streams: Time ordered sequence of item modifications in the DynamoDB table . The information is stored for 24 Hours <br>
+4:DynamoDB Accelerator: Inmemory cache for DynamoDB. <br>
+5:DynamoDB Global Tables: Multi master (Multi region + Multi Active) Table . Same DB has asynchronous replication between regions . Below image depicts the architecture <br>
+![amazon-dynamodb-global-tables](https://user-images.githubusercontent.com/113619300/209469760-b106af24-270e-45a4-a225-f25b4d8c9549.jpg)
 
 
 
