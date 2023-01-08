@@ -15,7 +15,7 @@ Example: Alice uses a key and encrypts the data and sends the data and key to bo
 ![Symmetric-Encryption-Image-extracted-from-57](https://user-images.githubusercontent.com/113619300/209456029-bffb3a72-79c0-4424-b469-d23d93595bdf.png)
 
 Asymmetric encryption:<br>
-Public and private keys are used for eccryption and decryption of the data respectively.<br>
+Public and private keys are used for encryption and decryption of the data respectively.<br>
 Public key is readliy available and anyone can access from the web.<br>
 Example : Alice uses Bobs public key and encrypts the data . Bob uses the private key with respective to the public key he sent to Alice earlier and decrypts the data.
 Data cannot be compromised since it is associated with only public key of bob.<br>
